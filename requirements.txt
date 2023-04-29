@@ -1,0 +1,7 @@
+Django==2.2.7
+pytz==2019.3
+sqlparse==0.4.3
+requests==2.26.0
+sorl-thumbnail==12.7.0
+pytest==6.2.4
+pytest-django==4.4.0
