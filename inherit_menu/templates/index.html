@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %} Index Page {% endblock %}
+{% load draw_menu %}
+{% load static %}
+
+<!--
+    Здесь начинается визуализация меню, содержащихся в базе.
+-->
+{% block content %}
+<!--
+    Для отладки и отображения id меню/подменю раскоментируйте
+    строку ниже.
+-->
+    <!--{% get_querystring menu %}-->
+<!--
+    Для отображения меню на главной странице, создайте его
+    в админ панели и добавьте в формате: {% draw_menu 'main_menu' %},
+    где 'main_menu' - имя меню.
+-->
+    Restaurant
+    {% draw_menu 'Restaurant' %}
+    Library
+    {% draw_menu 'Library' %}
+{% endblock %}
