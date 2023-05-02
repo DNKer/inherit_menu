@@ -21,8 +21,8 @@
 
 ## Технологии
 
-- [Python 3.7](https://www.python.org/)  - язык программирования, который позволяют быстро работать и более эффективно внедрять системы!
-- [Django 2.2.7](https://www.djangoproject.com/)-  упрощает создание лучших веб-приложений быстрее и с меньшим количеством кода.
+[![Python](https://img.shields.io/badge/-Python-464646?style=plastic&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=plastic&logo=Django&logoColor=56C0C0&color=008080)](https://www.djangoproject.com/)
 
 ## Установка
 
