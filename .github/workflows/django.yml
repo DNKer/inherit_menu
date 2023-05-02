@@ -27,4 +27,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
+        cd inherit_menu
         python manage.py test
