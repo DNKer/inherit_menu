@@ -74,6 +74,12 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+Загрузить данные из резервной копии db.json в папке inherit_menu:
+
+```bash
+python manage.py loaddata db.json
+```
+
 Запустить проект:
 
 ```bash
@@ -86,7 +92,13 @@ python manage.py runserver
 SECRET_KEY=django-secret-key
 ```
 
-### Для работы с меню, которые храняться в базе данных.
+Выгрузить данные для переноса на другую платформу возможно с помощью команды:
+```bash
+python manage.py dumpdata inherit_menu > db.json
+```
+На выходе получим файл дампа __db.json__.
+
+### Работа с меню, которые храняться (будут храниться) в базе данных.
 
 Для создания суперпользователя перейти в рабочую директорию:
 ```bash
