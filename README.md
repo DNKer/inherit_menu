@@ -4,6 +4,8 @@
 ![logo](https://static.tildacdn.com/tild3565-3139-4331-b366-666635393866/1645202220_33-kartin.png)
 
 
+![workflow](https://github.com/dnker/inherit_menu/actions/workflows/django.yml/badge.svg?branch=master&event=push)
+
 ## Особенности
 
 - позволяет размещать меню на любой нужной странице по названию с помощью тега {% draw_menu 'main_menu' %} , где __main_menu__ - имя меню.
