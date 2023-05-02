@@ -5,3 +5,4 @@ requests==2.26.0
 sorl-thumbnail==12.7.0
 pytest==6.2.4
 pytest-django==4.4.0
+python-dotenv==0.10.1
